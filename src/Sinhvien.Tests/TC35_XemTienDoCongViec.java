@@ -18,7 +18,7 @@ public class TC35_XemTienDoCongViec {
     @BeforeClass
     public void setUp() {
         // --- Cấu hình WebDriver ---
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\asus\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "C:\\msedgedriver.exe");
         driver = new EdgeDriver();
         driver.manage().window().maximize();
 
@@ -67,3 +67,4 @@ public class TC35_XemTienDoCongViec {
         }
     }
 }
+
