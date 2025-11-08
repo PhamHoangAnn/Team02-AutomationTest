@@ -18,7 +18,7 @@ public class TC41_CapNhatUngTuyenTroGiang {
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.edge.driver",
-                "C:\\Users\\asus\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+                "C:\\msedgedriver.exe");
 
         driver = new EdgeDriver();
         driver.manage().window().maximize();
@@ -81,4 +81,5 @@ public class TC41_CapNhatUngTuyenTroGiang {
             driver.quit();
         }
     }
+
 }
