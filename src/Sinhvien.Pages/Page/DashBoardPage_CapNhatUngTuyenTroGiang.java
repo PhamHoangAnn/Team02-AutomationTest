@@ -81,7 +81,7 @@ public class DashBoardPage_CapNhatUngTuyenTroGiang {
         dtkBox.sendKeys("8");
         
         // --- Upload hình ảnh minh chứng ---
-        String imagePath = "C:\\Users\\asus\\eclipse-workspace\\TH02\\src\\TroGiang\\con cá.drawio.png"; 
+        String imagePath = "C:\\con cá.drawio.png"; 
 
         WebElement pictureInput = wait.until(ExpectedConditions.presenceOfElementLocated(Pic));
 
@@ -110,4 +110,5 @@ public class DashBoardPage_CapNhatUngTuyenTroGiang {
         wait.until(ExpectedConditions.elementToBeClickable(KQHP)).click();
         System.out.println("✅ Đã mở trang 'Kết quả đăng ký'");
     }
+
 }
