@@ -18,7 +18,7 @@ public class TC38_CapNhatKetQuaCongViec {
     @BeforeClass
     public void setUp() {
         // --- Cấu hình WebDriver ---
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\asus\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "C:\\msedgedriver.exe");
         driver = new EdgeDriver();
         driver.manage().window().maximize();
 
@@ -71,4 +71,5 @@ public class TC38_CapNhatKetQuaCongViec {
             driver.quit(); // Dừng hẳn EdgeDriver
         }
     }
+
 }
